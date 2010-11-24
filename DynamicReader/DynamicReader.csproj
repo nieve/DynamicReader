@@ -48,6 +48,12 @@
     <Compile Include="DynamicReader.cs" />
     <Compile Include="DynamicXmlReader.cs" />
     <Compile Include="DynamicXmlExtensions.cs" />
+    <Compile Include="Extractors\IAttributesExtractor.cs" />
+    <Compile Include="Extractors\IElementsExtractor.cs" />
+    <Compile Include="Extractors\MultipleAttributesExtractor.cs" />
+    <Compile Include="Extractors\MultipleElemntsExtractor.cs" />
+    <Compile Include="Extractors\SingleAttributesExtractor.cs" />
+    <Compile Include="Extractors\SingleElemntExtractor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

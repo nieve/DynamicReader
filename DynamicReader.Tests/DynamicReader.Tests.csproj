@@ -50,8 +50,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Context.cs" />
+    <Compile Include="MultipleElementContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SingleElementContext.cs" />
+    <Compile Include="with_dynamic_xml_reader_returning_a_single_value.cs" />
     <Compile Include="with_dynamic_xml_reader_returning_no_singles.cs" />
   </ItemGroup>
   <ItemGroup>

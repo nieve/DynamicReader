@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Xml.Linq;
 using Machine.Specifications;
 using Microsoft.CSharp.RuntimeBinder;
 using NUnit.Framework;
@@ -22,5 +23,11 @@ namespace DynamicReader.Tests
            {
                var x = reader.contact.address.something;
            });
+    }
+
+    public class Phone
+    {
+        public string AreaCode { get; set; }
+        public string Number { get; set; }
     }
 }
